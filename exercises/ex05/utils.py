@@ -43,3 +43,21 @@ def sub(w: list[int], start: int, end: int) -> list[int]:
     for idx in range(start, end):
         subs.append(w[idx])
     return subs
+
+
+    def remove_fish(self, amount: int): 
+        """Remove fish!"""
+        idk: list[Fish] = []
+        idk += self.fish
+        fish: int = 0
+        while fish < amount:
+            idk.pop(fish)
+            amount -= 1
+        self.fish = idk
+        return None
+    
+    def one_river_week(self): 
+        """Life in a week!"""
+        while self.day < 7:
+            self.one_river_day()
+        return None
