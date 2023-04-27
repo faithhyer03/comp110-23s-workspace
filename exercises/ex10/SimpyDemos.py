@@ -19,7 +19,7 @@ Simpy is a *simp*ler, single dimension implementation
 of many of the same capabilities of NumPy. 
 In a sense, Simpy simps for NumPy."""
 
-__author__ = "YOUR PID HERE"
+__author__ = "730471008"
 
 """You will implement the methods of Simpy 
 in the `Simpy.py` file found in the `exercises/ex10` 
